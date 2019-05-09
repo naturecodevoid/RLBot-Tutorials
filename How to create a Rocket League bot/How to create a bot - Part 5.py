@@ -3,6 +3,9 @@ from rlbot.utils.structures.game_data_struct import GameTickPacket
 import math
 import time
 
+def distance(self, x1, y1, x2, y2):
+        return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
 class PythonExample(BaseAgent):
 
     def __init__(self, name, team, index):
@@ -35,9 +38,6 @@ class PythonExample(BaseAgent):
         self.should_dodge = False
         self.on_second_jump = False
         self.next_dodge_time = 0
-
-    def distance(self, x1, y1, x2, y2):
-        return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
     def aim(self, target_x, target_y):
         angle_between_bot_and_target = math.degrees(math.atan2(target_y - self.bot_pos.Y,
