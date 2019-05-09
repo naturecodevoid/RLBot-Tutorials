@@ -3,3 +3,5 @@ All the scripts from the RLBot tutorial series by Blocks_ (@TheBlocks) on https:
 
 Changelog:
 
+- Add `import`s for rlbot
+- Change `Agent` to `TutorialBot(BaseAgent)`
