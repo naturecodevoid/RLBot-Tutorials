@@ -4,7 +4,7 @@ Status: active development
 All the scripts from the RLBot tutorial series by Blocks_ (@TheBlocks) on https://www.reddit.com/r/RocketLeagueBots/.
 Scripts are being updated, fixed, and maintained by @naturecodevoid
 
-Note: I'm not focusing *at all* on the Advanced Bot. Right now, the changes listed below **are for How to make a RL bot**
+Note: I'm not focusing *at all* on the Advanced Bot. Right now, the changes listed below **are for How to make a RL bot** ***only***. 
 
 Changelog:
 
