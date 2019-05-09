@@ -6,7 +6,7 @@ Scripts are being updated, fixed, and maintained by @naturecodevoid
 
 Note: I'm not focusing *at all* on the Advanced Bot. Right now, the changes listed below **are for How to make a RL bot** ***only***. 
 
-Changelog:
+# Changelog:
 
 - Add `import`s for rlbot
 - Change `Agent` to `PythonExample(BaseAgent)` so you can copy 'n paste into `RLBot/RLBotPythonExample/python_example/python_example.py`
