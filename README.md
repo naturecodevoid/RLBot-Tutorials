@@ -4,4 +4,4 @@ All the scripts from the RLBot tutorial series by Blocks_ (@TheBlocks) on https:
 Changelog:
 
 - Add `import`s for rlbot
-- Change `Agent` to `TutorialBot(BaseAgent)`
+- Change `Agent` to `PythonExample(BaseAgent)` so you can copy 'n paste into `RLBot/RLBotPythonExample/python_example/python_example.py`
