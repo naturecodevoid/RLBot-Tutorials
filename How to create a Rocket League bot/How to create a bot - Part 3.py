@@ -93,6 +93,13 @@ class PythonExample(BaseAgent):
 
         self.check_for_dodge(self.ball_pos.X, self.ball_pos.Y)
 
-        return [self.throttle, self.steer,
-                self.pitch, self.yaw, self.roll,
-                self.jump, self.boost, self.powerslide]
+        self.controller.throttle  = self.throttle
+        self.controller.steer     = self.steer
+        self.controller.pitch     = self.pitch
+        self.controller.yaw       = self.yaw
+        self.controller.roll      = self.roll
+        self.controller.boost     = self.boost
+        self.controller.jump      = self.jump
+        self.controller.handbrake = self.powerslide
+
+        return self.controller
