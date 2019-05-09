@@ -7,6 +7,7 @@ class PythonExample(BaseAgent):
 
     def __init__(self, name, team, index):
         self.index = index
+        self.controller = SimpleControllerState()
 
         # Contants
         self.DODGE_TIME = 0.2
