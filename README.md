@@ -34,3 +34,4 @@ So, you want to run the bots the easiest way, huh? Well, I fully recommend RLBot
 - Change `Agent` to `PythonExample(BaseAgent)` so you can copy 'n paste into `RLBot/RLBotPythonExample/python_example/python_example.py`
 - Change `distance` function to global on part 4 + part 5
 - Add a controller for parts missing one and assigning it with `self.<controllerPart>`
+- Add `self.` to the ball_pos in part 2 for building off purposes
