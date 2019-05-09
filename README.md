@@ -29,6 +29,7 @@ So, you want to run the bots the easiest way, huh? Well, I fully recommend RLBot
 
 ## Changelog:
 
+- Add `self.` to the controller variable in part 1 in case you want to build off of that
 - Add `import`s for rlbot
 - Change `Agent` to `PythonExample(BaseAgent)` so you can copy 'n paste into `RLBot/RLBotPythonExample/python_example/python_example.py`
 - Change `distance` function to global on part 4 + part 5
