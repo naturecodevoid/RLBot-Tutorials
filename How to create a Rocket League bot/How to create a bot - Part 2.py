@@ -11,6 +11,7 @@ class PythonExample(BaseAgent):
         # Game values
         self.bot_pos = None
         self.bot_yaw = None
+        self.ball_pos = None
 
     def aim(self, target_x, target_y):
         angle_between_bot_and_target = math.atan2(target_y - self.bot_pos.y,
@@ -39,8 +40,8 @@ class PythonExample(BaseAgent):
         self.bot_yaw = packet.game_cars[self.team].physics.rotation.yaw
         self.bot_pos = packet.game_cars[self.index].physics.location
 
-        ball_pos = packet.game_ball.physics.location
-        self.aim(ball_pos.x, ball_pos.y)
+        self.ball_pos = packet.game_ball.physics.location
+        self.aim(self.ball_pos.x, self.ball_pos.y)
 
         self.controller.throttle = 1
 
