@@ -20,7 +20,7 @@ So, you want to run the bots the easiest way, huh? Well, I fully recommend RLBot
 1. Download RLBot/RLBotPythonExample at https://github.com/RLBot/RLBotPythonExample/
 1. In start, open RLBotGui.
 1. Add your python_example folder to the gui or the rlbot.cfg to the gui.
-1. Paste any of the code in this/TheBlocks' in python_example/python_example.py
+1. Paste any of the code in this/TheBlocks' repo in python_example/python_example.py
 1. Press start match.
 1. A confirmation will pop up in steam. Press ok.
 1. Wait for RL to open. A match will hopefully start
