@@ -25,6 +25,7 @@ So, you want to run the bots the easiest way, huh? Well, I fully recommend RLBot
 1. A confirmation will pop up in steam. Press ok.
 1. Wait for RL to open. A match will hopefully start
 1. If not, press start match again.
+1. If your still here, contact people on the discord server.
 
 ## Changelog:
 
