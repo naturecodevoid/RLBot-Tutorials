@@ -4,7 +4,7 @@ from rlbot.utils.structures.game_data_struct import GameTickPacket
 class PythonExample(BaseAgent):
 
     def get_output(self, packet: GameTickPacket) -> SimpleControllerState:
-        controller = SimpleControllerState()
-        controller.throttle = 1
+        self.controller = SimpleControllerState()
+        self.controller.throttle = 1
 
-        return controller
+        return self.controller
