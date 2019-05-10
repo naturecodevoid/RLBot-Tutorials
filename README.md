@@ -31,6 +31,7 @@ So, you want to run the bots the easiest way, huh? Well, I fully recommend RLBot
 
 - Add `self.` to the controller variable in part 1 and `__init__()` in case you want to build off of that
 - Add `import`s for rlbot
+- In part 4, changed `get_output_vector` to `get_output` and also changed the values it took in and added `-> SimpleController`
 - Change `Agent` to `PythonExample(BaseAgent)` so you can copy 'n paste into `RLBot/RLBotPythonExample/python_example/python_example.py`
 - Change `distance` function to global on part 4 + part 5
 - Add a controller for parts missing one and assigning it with `self.<controllerPart>`
