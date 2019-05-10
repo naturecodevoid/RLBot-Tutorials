@@ -14,7 +14,7 @@ So, you want to run the bots the easiest way, huh? Well, I fully recommend RLBot
 
 1. Download Python 3.7 at https://python.org/downloads/
 1. Open the python 3.7(or 37) setup (which is probably in your downloads folder). Wait for it to install.
-1. You may also need to download and install Java, but you probably won't have to. I was fine and was able to run my bot but it gave me some warning/errors so I downloaded and installed Java.
+1. You may also need to download and install Java, but you probably won't have to. I was fine and was able to run my bot but it gave me some warnings so I downloaded and installed Java.
 1. Download RLBot's gui at https://github.com/RLBot/RLBot/wiki 
 1. Open the gui setup (which is probably in your downloads folder). Wait for it to install.
 1. Download RLBot/RLBotPythonExample at https://github.com/RLBot/RLBotPythonExample/
