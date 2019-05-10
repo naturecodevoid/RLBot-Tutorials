@@ -79,11 +79,11 @@ class PythonExample(BaseAgent):
                 self.on_second_jump = True
                 self.next_dodge_time = time.time() + self.DODGE_TIME
 
-    def get_output_vector(self, values):
+    def get_output(self, packet: GameTickPacket) -> SimpleControllerState:
         # Update game data variables
-        self.bot_pos = values.gamecars[self.index].Location
-        self.bot_rot = values.gamecars[self.index].Rotation
-        self.ball_pos = values.gameball.Location
+        self.bot_pos = packet.gamecars[self.index].Location
+        self.bot_rot = packet.gamecars[self.index].Rotation
+        self.ball_pos = packet.gameball.Location
 
         # Get car's yaw and convert from Unreal Rotator units to degrees
         self.bot_yaw = abs(self.bot_rot.Yaw) % 65536 / 65536 * 360
