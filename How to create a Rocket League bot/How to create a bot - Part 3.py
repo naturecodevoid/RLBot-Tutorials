@@ -39,8 +39,7 @@ class PythonExample(BaseAgent):
         self.dodge_interval = 0
 
     def aim(self, target_x, target_y):
-        angle_between_bot_and_target = math.degrees(math.atan2(target_y - self.bot_pos.Y,
-                                                               target_x - self.bot_pos.X))
+        angle_between_bot_and_target = math.degrees(math.atan2(target_y - self.bot_pos.Y, target_x - self.bot_pos.X))
 
         angle_front_to_target = angle_between_bot_and_target - self.bot_yaw
 
