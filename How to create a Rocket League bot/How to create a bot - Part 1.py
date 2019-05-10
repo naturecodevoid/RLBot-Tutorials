@@ -8,6 +8,6 @@ class PythonExample(BaseAgent):
         self.controller = SimpleControllerState()
 
     def get_output(self, packet: GameTickPacket) -> SimpleControllerState:
-        self.controller.throttle = 1
+        self.controller.throttle = 1.0
 
         return self.controller
